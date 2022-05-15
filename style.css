@@ -1,0 +1,10 @@
+.code > div {
+    width: 400px;
+    height: 300px;
+    border: 2px solid #333;
+}
+
+#preview-window {
+    background-color: rgb(184, 53, 53);
+    border: 2px solid blue;
+}

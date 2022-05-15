@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Code mirror - Code editor</title>
+
+    <script src="codemirror/lib/codemirror.js"></script>
+    <link rel="stylesheet" href="codemirror/lib/codemirror.css">
+    <script src="codemirror/mode/xml/xml.js"></script>
+    <script src="codemirror/mode/css/css.js"></script>
+    <script src="codemirror/mode/javascript/javascript.js"></script>
+    <script src="codemirror/addon/edit/closetag.js"></script>
+    <link rel="stylesheet" href="codemirror/theme/dracula.css">
+
+    <!-- CUSTOM STYLE SHEET  -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="header">
+        <button id="run-btn">Run</button>
+    </div>
+
+
+    <div class="editor">
+        <div class="code">
+            <div class="html-code"></div>
+            <div class="css-code"></div>
+            <div class="js-code"></div>
+        </div>
+
+        <div class="preview">
+            <iframe id="preview-window">
+
+            </iframe>
+        </div>
+    </div>
+    <!-- <textarea id="editor"><p>I am a paragraph.</p></textarea> -->
+    <script>
+        // const editor = CodeMirror.fromTextArea( document.getElementById('editor'), {
+        //     mode: "xml",
+        //     theme: "dracula",
+        //     lineNumbers: true,
+        //     autoCloseTags: true
+        // } )
+
+        // editor.setSize("300", "250")
+
+    </script>
+
+    <script src="script.js"></script>
+</body>
+</html>
