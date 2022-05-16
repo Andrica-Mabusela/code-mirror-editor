@@ -1,8 +1,56 @@
+#run-btn {
+    margin: 10px;
+    padding: 5px;
+    border: none
+}
+
+.editor {
+    display: flex;
+}
+
 .code > div {
     position: relative;
 }
 
-.code > div > div {
+.nav-tabs {
+    background-color: #282a36;
+}
+
+ul img {
+
+    width: 30px;
+    height: 30px;
+}
+
+
+
+ul li a {
+    padding: 5px 15px;
+    width: 100%;
+    height: 100%;
+    display: block;
+    text-decoration: none;
+}
+
+ul li a:hover {
+    text-decoration: none;
+}
+
+.html-item {
+    background-color: #44475a;
+}
+
+.code-block-activated {
+    background-color: #44475a;
+}
+
+
+.tab-pane {
+    width: 400px;
+    height: 300px;
+}
+
+.code > div > textarea {
     width: 400px;
     height: 300px;
     position: absolute;
@@ -12,5 +60,10 @@
 #preview-window {
     background-color: rgb(184, 53, 53);
     border: 2px solid blue;
+    position: relative;
+    width: 400px;
+    height: 400px;
+    margin-left: 400px;
+
 }
 
