@@ -1,10 +1,16 @@
 .code > div {
+    position: relative;
+}
+
+.code > div > div {
     width: 400px;
     height: 300px;
-    border: 2px solid #333;
+    position: absolute;
+    /* border: 2px solid red; */
 }
 
 #preview-window {
     background-color: rgb(184, 53, 53);
     border: 2px solid blue;
 }
+
